@@ -1,4 +1,70 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+}
 body{
     font-family: 'Oswald', sans-serif;
     font-family: 'Roboto', sans-serif;
+}
+.wrapper{
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: auto;
+    display: grid;
+}
+.header{
+    grid-column: 1/13;
+    grid-row: 1/2; 
+}
+.tearoom{
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: auto;
+    display: grid;
+    grid-column: 2/12;
+    grid-row: 2/3;
+    display: block;
+}
+.blog{
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: auto;
+    display: grid;
+    grid-column: 2/12;
+    grid-row: 3/4;
+    display: inline-block;
+}
+.tea{
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: auto;
+    display: grid;
+    grid-column: 2/12;
+    grid-row: 4/5;
+    grid-gap: 5.5px; 
+}
+.eco{
+   
+    display: inline-block;
+}
+.green{
+
+    display: inline-block; 
+}
+.white{
+  
+    display: inline-block; 
+}
+.black{
+   
+    display: inline-block;
+}
+.dragon{
+   
+    display: inline-block;
+}
+.herb{
+    
+    display: inline-block;
+}
+footer{
+    grid-column: 2/12;
+    grid-row: 5/6; 
 }
