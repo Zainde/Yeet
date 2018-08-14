@@ -1,12 +1,13 @@
-// variable for salesarticles
-var SalesArt=Array.from(document.getElementsByClassName('category'));
 // variable for filter buttons
 var filterButton=Array.from(document.getElementsByClassName('filter'));
+// variable for sales article buttons
+var categorybutton=Array.from(document.getElementsByClassName('catbut'));
+// variable for salesarticles
+var SalesArt=Array.from(document.getElementsByClassName('category'));
 
 window.onload=addclick
 // adds onclick function for all buttons
 function addclick(){
-  var categorybutton=Array.from(document.getElementsByClassName('catbut'));
 
 for (var i = 0; i < filterButton.length; i++) {
   filterButton[i].addEventListener('click',function () {
