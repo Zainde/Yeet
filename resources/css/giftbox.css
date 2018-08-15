@@ -33,8 +33,7 @@ text-transform: uppercase;
 }
 
 
-
-/* til læs mere funktion */
+/* til læs mere funktion
 .foldout{
   text-decoration: underline;
   cursor: pointer;
@@ -47,4 +46,4 @@ text-transform: uppercase;
 .animatefold{
   max-height: 300px;
   overflow: visible;
-}
+} */
