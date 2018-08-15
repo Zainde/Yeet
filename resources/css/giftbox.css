@@ -1,0 +1,46 @@
+.show{
+  display: block;
+}
+
+.hide{
+  display: none;
+}
+
+.contain{
+  display: flex;
+  justify-content: space-evenly;
+}
+.category{
+  display: inline-block;
+}
+
+.category h2{
+  margin: 3%;
+  font-family: 'Oswald', sans-serif;
+font-size: 2em;
+  color: #709a2d;
+
+}
+.middle{
+text-align: center;
+text-transform: uppercase;
+}
+
+.catbut{
+  max-height: 60%;
+  border: 1px solid #709a2d;
+  background-color: white;
+}
+
+
+
+/* til læs mere funktion */
+.middle{
+  max-height: 50px;
+  overflow: hidden;
+}
+
+.animatefold{
+  max-height: 300px;
+  overflow: visible;
+}
