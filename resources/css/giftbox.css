@@ -31,3 +31,16 @@ text-transform: uppercase;
   border: 1px solid #709a2d;
   background-color: white;
 }
+
+
+
+/* til læs mere funktion */
+.middle{
+  max-height: 50px;
+  overflow: hidden;
+}
+
+.animatefold{
+  max-height: 300px;
+  overflow: visible;
+}
