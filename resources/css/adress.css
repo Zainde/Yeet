@@ -1,0 +1,13 @@
+.adress{
+  background-color: #f59b1a;
+  color: white;
+  font-size: 2em;
+  text-transform: capitalize;
+  text-align: center;
+  margin: 2% 0;
+  padding: 2% 0;
+}
+
+.adress p{
+  margin: 0px;
+}

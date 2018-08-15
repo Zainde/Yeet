@@ -35,6 +35,10 @@ text-transform: uppercase;
 
 
 /* til læs mere funktion */
+.foldout{
+  text-decoration: underline;
+  cursor: pointer;
+}
 .middle{
   max-height: 50px;
   overflow: hidden;
