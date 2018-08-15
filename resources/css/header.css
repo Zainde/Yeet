@@ -1,0 +1,28 @@
+.header{
+    display: grid;
+}
+
+nav{
+    text-align: right;
+}
+
+.logo{
+    text-align: center;
+}
+
+.inline{
+    display: inline-block;
+    margin: 0 5px 0 0;
+
+}
+
+.headline{
+    text-align: center;
+    color: #709a2d;
+    font-size: 3em;
+        
+}
+
+a{
+    color: #475e30;
+}
