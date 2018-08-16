@@ -14,6 +14,10 @@
   display: inline-block;
 }
 
+.category figure img {
+  width: 100%;
+}
+
 .category h2{
   margin: 3%;
   font-family: 'Oswald', sans-serif;
