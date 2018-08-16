@@ -84,3 +84,39 @@ footer{
 .hide{
   display: none;
 }
+#form{
+    background: #f59b1a;
+color: #fff;
+}
+#form div h4{
+    font-family: 'Oswald', sans-serif;
+    
+}
+#form div h3{
+    font-family: 'Roboto', sans-serif;
+    
+}
+.one  {
+    width: 98.5%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f59b1a;
+    color: #fff;
+    border: solid 2px #fff;
+    
+}
+::placeholder{
+    color: #fff;
+}
+#comment{
+    width: 98.5%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f59b1a;
+    color: #fff;
+    border: solid 2px #fff; 
+}
+.submitbutton{
+    background-color: #f59b1a;
+    color: #fff;
+    border: solid 2px #fff
+}
+
