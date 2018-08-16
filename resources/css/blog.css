@@ -1,0 +1,66 @@
+body{
+    margin: 0px; 
+    padding: 0px; 
+}
+figure{
+    text-align: center;
+}
+h1{
+    color: #709a2d;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    margin: 0px; 
+}
+
+article{
+border: solid 1px black;
+margin: 20px; 
+text-align: center; 
+font-family: 'Roboto', sans-serif;
+}
+footer{
+background-color: #f59b1a;
+border: solid 0px; 
+height: 260px;
+font-family: 'Roboto', sans-serif;
+}
+.kontakt{
+    color: white;
+    text-align: center;
+    padding: 1px
+}
+.læs{
+display: inline-block;
+right: 10%;
+text-align: center;
+}
+.xmas{
+    position: relative;
+    left: 29%;
+    top: -267px;
+}
+.xmasarticle {
+    height: 320px;
+}
+
+.xmasarticle p {
+    padding: 2% 0 0 0;
+}
+
+#firstarticle .p {
+    padding: 1%;
+}
+.skov{
+    position: relative;   
+    right: 2%;
+    margin: 0px;
+    top: -15px;
+    
+    
+}
+.skov img{
+    position: relative;
+    width: 1860px;
+    left: -2px; 
+}
