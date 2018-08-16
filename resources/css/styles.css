@@ -73,7 +73,8 @@ justify-content: space-evenly
   grid-row: 5/6;
 }
 footer{
-    grid-column: 2/12;
+    background-color: #f59b1a;
+    grid-column: 1/13;
     grid-row: 6/7;
 }
 
@@ -119,4 +120,18 @@ color: #fff;
     color: #fff;
     border: solid 2px #fff
 }
+fieldset{
+  border: solid 1px #f59b1a;
+}
+.catbut{
+  background-color: #fff;
+  font-family: 'Roboto', sans-serif; 
+  font-weight: lighter;
+  border: 0;
 
+}
+.sale{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 5px;
+}
