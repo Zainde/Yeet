@@ -78,7 +78,9 @@ function buttons(obj,adc) {
         behavior: 'smooth'
     });
 
-    var classname = obj.className;
+    var classname = obj.classList[1];
+
+    console.log(classname)
 
     var checks = document.getElementsByTagName("input")
 
