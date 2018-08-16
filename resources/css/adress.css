@@ -12,3 +12,12 @@
 .adress p{
   margin: 0px;
 }
+
+.filter a img{
+  width: 95%;
+
+}
+
+.filter{
+  text-align: center;
+}
