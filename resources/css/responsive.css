@@ -1,13 +1,13 @@
 @media only screen and (min-width: 1200px) {
     body {
-        background-color: #f0f;
+        background-color: #fff;
     }
 }
 
 @media only screen and (max-width: 1050px) {
     
     body {
-        background-color: #0ff;
+        background-color: rgb(224, 224, 224);
     }
 }
 
@@ -15,7 +15,7 @@
 
 @media only screen and (max-width: 770px) {
     body {
-        background-color: #ff0;
+        background-color: rgb(173, 173, 173);
     }
    
 }
@@ -23,7 +23,7 @@
 
 @media only screen and (max-width: 420px) {
     body {
-        background-color: #f00;
+        background-color: rgb(141, 141, 141);
     }
 
 }
