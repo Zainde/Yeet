@@ -23,6 +23,7 @@ body{
     grid-column: 2/12;
     grid-row: 2/3;
     display: block;
+    margin: auto;
 }
 .blog{
     grid-template-columns: repeat(12,1fr);
@@ -31,14 +32,16 @@ body{
     grid-column: 2/12;
     grid-row: 3/4;
     display: inline-block;
+    margin: auto;
 }
 .tea{
-    grid-template-columns: repeat(12,1fr);
-    grid-template-rows: auto;
-    display: grid;
+    /* grid-template-columns: repeat(12,1fr);
+    grid-template-rows: auto; */
+    display: flex;
     grid-column: 2/12;
     grid-row: 4/5;
-    grid-gap: 5.5px;
+    /* grid-gap: 5.5px; */
+justify-content: space-evenly
 }
 .eco{
 

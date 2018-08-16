@@ -6,6 +6,10 @@ nav{
     text-align: right;
 }
 
+nav ul{
+  margin-right: 2%;
+  margin-top: 1%;
+}
 .logo{
     text-align: center;
 }
@@ -19,6 +23,7 @@ nav{
 .headline{
     text-align: center;
     color: #709a2d;
+    font-family: Oswald, sans-serif;
     font-size: 3em;
 
 }
