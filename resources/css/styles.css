@@ -11,6 +11,7 @@ body{
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: auto;
     display: grid;
+    grid-gap: 5px;
 }
 .header{
     grid-column: 1/13;
@@ -24,6 +25,11 @@ body{
     grid-row: 2/3;
     display: block;
     margin: auto;
+    background-image: url(../img/hero/julHEROLARGE.jpg);
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+
 }
 .blog{
     grid-template-columns: repeat(12,1fr);
@@ -33,13 +39,38 @@ body{
     grid-row: 3/4;
     display: inline-block;
     margin: auto;
+    background-image: url(../img/hero/good_teaHEROLARGE.jpg);
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+
 }
+.giftbox{
+  grid-template-columns: repeat(12,1fr);
+  grid-template-rows: auto;
+  display: grid;
+  grid-column: 2/12;
+  grid-row: 4/5;
+  display: inline-block;
+  margin: auto;
+  background-image: url(../img/hero/giftHEROGRØN.jpg);
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  background-position: bottom;
+
+}
+.blog a h2, .tearoom a h2, .giftbox a h2{
+  color: #f59b1a;
+  font-family: oswald;
+  font-size: 8em;
+text-align: center;}
 .tea{
     /* grid-template-columns: repeat(12,1fr);
     grid-template-rows: auto; */
     display: flex;
     grid-column: 2/12;
-    grid-row: 4/5;
+    grid-row: 5/6;
     /* grid-gap: 5.5px; */
 justify-content: space-evenly
 }
@@ -70,12 +101,12 @@ justify-content: space-evenly
 
 .sale{
   grid-column: 2/12;
-  grid-row: 5/6;
+  grid-row: 6/7;
 }
 footer{
     background-color: #f59b1a;
     grid-column: 1/13;
-    grid-row: 6/7;
+    grid-row: 7/8;
 }
 
 .show{
@@ -91,11 +122,11 @@ color: #fff;
 }
 #form div h4{
     font-family: 'Oswald', sans-serif;
-    
+
 }
 #form div h3{
     font-family: 'Roboto', sans-serif;
-    
+
 }
 .one  {
     width: 98.5%;
@@ -103,7 +134,7 @@ color: #fff;
     background-color: #f59b1a;
     color: #fff;
     border: solid 2px #fff;
-    
+
 }
 ::placeholder{
     color: #fff;
@@ -113,7 +144,7 @@ color: #fff;
     font-family: 'Roboto', sans-serif;
     background-color: #f59b1a;
     color: #fff;
-    border: solid 2px #fff; 
+    border: solid 2px #fff;
 }
 .submitbutton{
     background-color: #f59b1a;
@@ -125,7 +156,7 @@ fieldset{
 }
 .catbut{
   background-color: #fff;
-  font-family: 'Roboto', sans-serif; 
+  font-family: 'Roboto', sans-serif;
   font-weight: lighter;
   border: 0;
 
