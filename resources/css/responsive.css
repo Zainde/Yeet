@@ -58,4 +58,52 @@ nav{
 .sale {
 grid-template-columns: repeat(3,1fr);
 }
+h1{
+    margin: 0;
+font-family: "Oswald", sans-serif;
+color: #fff;
+font-size: 4em;
+text-align: center;
+margin-left: -47%;
+}
+#header a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    position: relative;
+    top: -88px;
+    left: 87%;
+}
+.contain{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+}
+
+@media only screen and (max-width: 380px){
+    .filter{
+        width: 92px;
+        height:92px;
+        display: block;
+    } 
+    h1{
+        margin: 0;
+    font-family: "Oswald", sans-serif;
+    color: #fff;
+    font-size: 4em;
+    text-align: center;
+    margin-left: -47%;
+    }
+    #header a {
+        text-decoration: none;
+        color: #fff;
+        font-family: Roboto, sans-serif;
+        position: relative;
+        top: -88px;
+        left: 87%;
+    }
+    .contain{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+      }
 }
