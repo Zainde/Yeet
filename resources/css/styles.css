@@ -64,7 +64,8 @@ body{
   color: #f59b1a;
   font-family: oswald;
   font-size: 8em;
-text-align: center;}
+text-align: center;
+}
 .tea{
     /* grid-template-columns: repeat(12,1fr);
     grid-template-rows: auto; */
@@ -72,7 +73,7 @@ text-align: center;}
     grid-column: 2/12;
     grid-row: 5/6;
     /* grid-gap: 5.5px; */
-justify-content: space-evenly
+justify-content: space-evenly;
 }
 .eco{
 
@@ -116,6 +117,54 @@ footer{
 .hide{
   display: none;
 }
+.filter a p{
+  font-size: 2.5em;
+    color: white;
+    text-transform: capitalize;
+    font-family: oswald, sans-serif;
+}
+#ecofilter{
+  background-image: url(../img/Chamomile-Tea-BenefitsGRØN01.jpg);
+  width: 120px;
+  height: 120px;
+  background-size: cover;
+}
+#greenfilter{
+  background-image: url(../img/Green_teaGRØN.jpg);
+  width: 120px;
+  height: 120px;
+  background-size: cover;
+}
+#whitefilter{
+  background-image: url(../img/white_teaGRØN.jpg);
+  width: 120px;
+  height: 120px;
+  background-size: cover;
+}
+#blackfilter{
+  background-image: url(../img/black_teaGRØN.jpg);
+  width: 120px;
+  height: 120px;
+  background-size: cover;
+}
+#dragonfilter{
+  background-image: url(../img/oolong_teaGRØN.jpg);
+  width: 120px;
+  height: 120px;
+  background-size: cover;
+}
+#herbfilter{
+  background-image: url(../img/herb_teaGRØN.jpg);
+  width: 120px;
+  height: 120px;
+  background-size: cover;
+}
+#mixedfilter{
+  background-image: url(../img/mixed_teaGRØN.jpg);
+  width: 120px;
+  height: 120px;
+  background-size: cover;
+}
 #form{
     background: #f59b1a;
 color: #fff;
@@ -153,6 +202,11 @@ color: #fff;
 }
 fieldset{
   border: solid 1px #f59b1a;
+}
+.formcontainer{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
 }
 .catbut{
   background-color: #fff;

@@ -19,7 +19,7 @@
           <nav>
               <ul>
                 <li class="inline"><a href="tearoom.html">TEA ROOM</a></li>
-                <li class="inline"><a href="#">BLOG</a></li>
+                <li class="inline"><a href="blog.html">BLOG</a></li>
                 <li class="inline"><a href="#">NYHEDER</a></li>
                 <li class="inline"><a href="giftbox.html">GAVEÆSKER</a></li>
               </ul>
@@ -30,9 +30,8 @@
       </header>
 
  <section class="tearoom">
-   <!--<a href="#"></a>-->
-    <a href="#"><h2>
-      <!-- <img src="./resources/img/hero/julHEROLARGE.jpg"> -->
+    <a href="tearoom.html">
+      <h2>
       TEA ROOM
     </h2>
     </a>
@@ -40,45 +39,52 @@
  </section>
 
  <section class="blog">
-  <!--<a href="#"></a>-->
-    <a href="#">
+    <a href="blog.html">
       <h2>
         BLOG
       </h2>
+    </a>
 </section>
 
  <section class="giftbox">
-  <!--<a href="#"></a>-->
-    <a href="#">
+    <a href="giftbox.html">
       <h2>
         GAVEÆSKE
       </h2>
+    </a>
 </section>
 
 <div class="tea">
-<section class="filter eco">
+<section class="filter eco" id="ecofilter">
     <a>
-      <img src="./resources/img/Chamomile-Tea-BenefitsGRØN01.jpg">
+<p>Øko</p>
+   </a>
+</section>
+<section class="filter green"  id="greenfilter">
+    <a>
+      <p>grøn</p>
     </a>
 </section>
-<section class="filter green">
-    <a><img src="./resources/img/Green_teaGRØN.jpg"></a>
-</section>
-<section class="filter white">
-    <a><img src="./resources/img/white_teaGRØN.jpg"></a>
-</section>
-<section class="filter black">
-    <a><img src="./resources/img/black_teaGRØN.jpg"></a>
-</section>
-<section class="filter dragon">
-    <a><img src="./resources/img/oolong_teaGRØN.jpg"></a>
-</section>
-<section class="filter herb">
-    <a><img src="./resources/img/herb_teaGRØN.jpg"></a>
-</section>
-<section class="filter mixed">
-    <a><img src="./resources/img/mixed_teaGRØN.jpg"></a>
-</section>
+<section class="filter white"  id="whitefilter">
+  <a>
+    <p>hvid</p>
+  </a></section>
+<section class="filter black"  id="blackfilter">
+  <a>
+    <p>sort</p>
+  </a></section>
+<section class="filter dragon"  id="dragonfilter">
+  <a>
+    <p>oolong</p>
+  </a></section>
+<section class="filter herb"  id="herbfilter">
+  <a>
+    <p>urte</p>
+  </a></section>
+<section class="filter mixed"  id="mixedfilter">
+  <a>
+    <p>mix</p>
+  </a></section>
 </div>
 
 <section class="sale">
@@ -2331,6 +2337,7 @@ Assam typhoo
             <br />
             <input class="one" required type="text" name="email" placeholder="Din Email">
             <br />
+            <div class="formcontainer">
             <div>
                 <h4>Grøn Te:</h5>
                     <label>
@@ -2862,7 +2869,7 @@ Assam typhoo
                     <input type="checkbox" class="teaset">
                     the sæt</label>
             </div>
-
+</div>
             <br />
             <br />
             <label for="comment" id="commentlabel">Kommentar</label>
