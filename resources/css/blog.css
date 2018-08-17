@@ -1,11 +1,11 @@
 body{
-    margin: 0px; 
+    margin: 0px;
     padding: 0px;
 }
 
 h1{
     margin: 0;
-    font-family: Oswald, sans-serif;
+    font-family: "Oswald", sans-serif;
     color: #fff;
     font-size: 8em;
     text-align: center;
@@ -37,12 +37,16 @@ article p {
 article h4 {
     margin: -1% 0;
     padding: -1% 0;
+    font-family: "oswald", sans-serif;
+
 }
 
 article h3 {
     font-size: 2em;
     text-align: center;
     padding-top: 4%;
+    font-family: "oswald", sans-serif;
+
 }
 
 footer{
@@ -59,6 +63,8 @@ font-family: 'Roboto', sans-serif;
 
 .kontakt h2 {
     font-size: 2em;
+    font-family: "oswald", sans-serif;
+
 }
 
 .kontakt p {
@@ -79,9 +85,9 @@ text-align: center;
 
 .xmas{
     position: relative;
-    left: 800px; 
+    left: 800px;
     top: -267px;
-    margin: 10px 800px 10px 200px; 
+    margin: 10px 800px 10px 200px;
 }
 
 #firstarticle .p {
@@ -89,17 +95,17 @@ text-align: center;
 }
 
 .skov{
-    position: relative;   
+    position: relative;
     right: 2%;
     margin: 0px;
     top: -15px;
-    
-    
+
+
 }
 .skov img{
     position: relative;
     width: 1860px;
-    left: -2px; 
+    left: -2px;
 }
 
 #header a {
