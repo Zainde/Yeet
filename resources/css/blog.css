@@ -1,0 +1,112 @@
+body{
+    margin: 0px; 
+    padding: 0px;
+}
+
+h1{
+    margin: 0;
+    font-family: Oswald, sans-serif;
+    color: #fff;
+    font-size: 8em;
+    text-align: center;
+    margin-left: 43%;
+}
+
+#header {
+    background-image: url('../img/te sæt.jpg');
+    height: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+article{
+font-family: 'Roboto', sans-serif;
+background-color: #f59b1a;
+color: #fff;
+font-size: 1.1em;
+height: 100%;
+width: 90%;
+margin: 5% 0 5% 5%;
+}
+
+article p {
+    margin: 0;
+}
+
+article h4 {
+    margin: -1% 0;
+    padding: -1% 0;
+}
+
+article h3 {
+    font-size: 2em;
+    text-align: center;
+    padding-top: 4%;
+}
+
+footer{
+background-color: #f59b1a;
+font-family: 'Roboto', sans-serif;
+}
+
+.kontakt{
+    color: #fff;
+    text-align: center;
+    padding: 1%;
+    height: 250px;
+}
+
+.kontakt h2 {
+    font-size: 2em;
+}
+
+.kontakt p {
+    font-size: 1.5em;
+}
+
+footer figure {
+    position: relative;
+    left: -40%;
+    top: -101%;
+}
+
+.læs{
+display: inline-block;
+right: 10%;
+text-align: center;
+}
+
+.xmas{
+    position: relative;
+    left: 800px; 
+    top: -267px;
+    margin: 10px 800px 10px 200px; 
+}
+
+#firstarticle .p {
+    padding: 1%;
+}
+
+.skov{
+    position: relative;   
+    right: 2%;
+    margin: 0px;
+    top: -15px;
+    
+    
+}
+.skov img{
+    position: relative;
+    width: 1860px;
+    left: -2px; 
+}
+
+#header a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    position: relative;
+    top: -180px;
+    left: 97%;
+}
