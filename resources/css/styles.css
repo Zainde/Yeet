@@ -128,8 +128,8 @@ footer{
     font-family: oswald, sans-serif;
 }
 .filter{
-  width: 120px;
-  height: 120px;
+    width: 200px;
+    height: 200px;
 }
 #ecofilter{
   background-image: url(../img/Chamomile-Tea-BenefitsGRØN01.jpg);
@@ -207,7 +207,6 @@ fieldset{
   font-family: 'Roboto', sans-serif;
   font-weight: lighter;
   border: 0;
-
 }
 .sale{
     display: grid;
