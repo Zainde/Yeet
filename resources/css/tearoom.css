@@ -56,26 +56,16 @@ font-family: 'Roboto', sans-serif;
 }
 
 .kontakt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #fff;
     text-align: center;
     padding: 1%;
     height: 250px;
 }
 
-.kontakt h2 {
-  font-family: "oswald", sans-serif;
-    font-size: 2em;
-}
 
-.kontakt p {
-    font-size: 1.5em;
-}
-
-footer figure {
-    position: relative;
-    left: -40%;
-    top: -101%;
-}
 
 .læs{
 display: inline-block;
