@@ -62,7 +62,7 @@ body{
 }
 .blog a h2, .tearoom a h2, .giftbox a h2{
   color: #f59b1a;
-  font-family: oswald;
+  font-family: "oswald", sans-serif;
   font-size: 8em;
 text-align: center;
 }
@@ -174,7 +174,7 @@ color: #fff;
 
 }
 #form div h3{
-    font-family: 'Roboto', sans-serif;
+  font-family: "oswald", sans-serif;
 
 }
 .one  {
