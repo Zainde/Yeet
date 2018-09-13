@@ -60,7 +60,7 @@ body{
   background-position: bottom;
 
 }
-.blog a h2, .tearoom a h2, .giftbox a h2{
+.blog a h1, .tearoom a h1, .giftbox a h1{
   color: #f59b1a;
   font-family: "oswald", sans-serif;
   font-size: 8em;
