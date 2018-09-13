@@ -4,52 +4,52 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Yeet Skreet</title>
+    <title>Giftbox</title>
     <link href="https://fonts.googleapis.com/css?family=Oswald:700|Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="./resources/css/giftbox.css">
-    <link rel="stylesheet" href="./resources/css/header.css">
-
+    <link rel="stylesheet" type="text/css" href="./resources/css/giftbox.css">
+    <link rel="stylesheet" type="text/css" href="./resources/css/header.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/adress.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/form.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/responsive.css">
   </head>
   <body>
     <header class="header">
                     <nav>
                         <ul>
-                          <li class="inline"><a href="#">TEA ROOM</a></li>
-                          <li class="inline"><a href="#">BLOG</a></li>
-                          <li class="inline"><a href="#">NYHEDER</a></li>
+                          <li class="inline"><a href="tearoom.html">TEA ROOM</a></li>
+                          <li class="inline"><a href="blog.html">BLOG</a></li>
+                          <!--<li class="inline"><a href="#">NYHEDER</a></li>-->
                           <li class="inline"><a href="#">GAVEÆSKER</a></li>
                         </ul>
                       </nav>
                       <section class="logo">
-                        <figure><img src="resources/img/Eco tea.png" alt=""></figure>
+                        <figure><a href="index.html"><img src="resources/img/Eco-teaLogo01.png" alt=""></a></figure>
                       </section>
                       <h1 class="headline">GAVEÆSKER</h1>
                 </header>
 
 <section class="contain">
 <!-- Article for categories -->
-<button class="catbut" type="button">
+<button class="catbut giftboxnewblack" type="button" onclick="buttons(this)">
 
 <article class="category">
 
 <figure>
 
-<img alt="giftbox_Big" src="https://baconmockup.com/200/200/" />
+<img alt="giftbox new black" src="./resources/img/gavebox/storbox/gaveaeske1-ny-sort2@2x.png" />
 <figcaption>
 <article>
-<header class="middle animatefold">
-  <a class="foldout" href="#">
-<p>læs mere</p>
-  </a>
+<header class="middle">
   <h2>
-    stor
+    sort
       </h2>
       <h2>
       gaveæske
         </h2>
 
         <h2>
-         200,-
+         125,-
   </h2>
 </header>
 </article>
@@ -61,21 +61,18 @@
 </button>
 
 <!-- Article for categories -->
-<button class="catbut" type="button">
+<button class="catbut giftboxlakblack" type="button" onclick="buttons(this)">
 
 <article class="category">
 
 <figure>
 
-<img alt="giftbox_Medium" src="https://baconmockup.com/200/200/" />
+<img alt="giftbox lak black" src="./resources/img/gavebox/bordbox/AESKE_LAK_BLACK@2x.png" />
 <figcaption>
 <article>
 <header class="middle">
-  <a class="foldout" href="#">
-<p>læs mere</p>
-  </a>
   <h2>
-    medium
+    lak sort
       </h2>
       <h2>
       gaveæske
@@ -95,27 +92,25 @@
 </button>
 
 <!-- Article for categories -->
-<button class="catbut" type="button">
+<button class="catbut giftboxwhite" type="button" onclick="buttons(this)">
 <article class="category">
 
 <figure>
 
-<img alt="giftbox_Small" src="https://baconmockup.com/200/200/" />
+<img alt="giftbox white 4pieces" src="./resources/img/gavebox/lillebox/gaveaeske3-hvid-4stk-1@2x.png" />
 <figcaption>
 <article>
 <header class="middle">
-  <a class="foldout" href="#">
-<p>læs mere</p>
-  </a>
+  <!-- <p class="foldout">læs mere</p -->
   <h2>
-    Lille
+    hvid 4stk
       </h2>
       <h2>
       gaveæske
         </h2>
 
         <h2>
-         90,-
+         99,-
   </h2>
 </header>
 </article>
@@ -127,11 +122,596 @@
 </article>
 </button>
 
+<!-- Article for categories -->
+<button class="catbut teaset" type="button" onclick="buttons(this)">
+
+  <article class="category">
+
+  <figure>
+
+  <img alt="giftbox big" src="./resources/img/gavebox/theset/gavesaet_stor4@2x.png" />
+  <figcaption>
+  <article>
+  <header class="middle">
+    <h2>
+      the
+        </h2>
+        <h2>
+          sæt
+          </h2>
+
+          <h2>
+           200,-
+    </h2>
+  </header>
+  </article>
+
+  </figcaption>
+
+  </figure>
+  </article>
+
+  </button>
+
 </section>
 
 <footer>
 
+      <form action="" id="form">
+          <fieldset>
+              <input class="one" required type="text" name="fullname" placeholder="Fulde Navn">
+              <br />
+              <input class="one" required type="text" name="address" placeholder="Din Adresse">
+              <br />
+              <input class="one" required type="text" name="email" placeholder="Din Email">
+              <br />
+              <div class="formcontainer">
+                <div>
+                    <h4>Øko Te:</h5>
+                        <label>
+                        <input type="checkbox" class="ecoAssam_lux">
+                        Assam Lux</label>
+                        <br />
+                        <label>
+                        <input type="checkbox" class="ecoCeyg">
+                        Ceyg</label>
+                        <br />
+                        <label>
+                        <input type="checkbox" class="ecoCeylon_on">
+                        Ceylon On</label>
+                        <br />
+                        <label>
+                        <input type="checkbox" class="ecoChun_mee">
+                        Chun Mee</label>
+                        <br />
+                        <label>
+                        <input type="checkbox" class="ecoDaro">
+                        Daro</label>
+                        <br />
+                        <label>
+                        <input type="checkbox" class="ecoGman">
+                        Gman</label>
+                        <br />
+                        <label>
+                        <input type="checkbox" class="ecoGreen_palace">
+                        Green Palace</label>
+                        <br />
+                        <label>
+                        <input type="checkbox" class="ecoKeemun">
+                        Keemun</label>
+                        <br />
+                        <label>
+                        <input type="checkbox" class="ecoKina-oolong-organic">
+                        Kina Oolong Organic</label>
+                        <br />
+                        <label>
+                        <input type="checkbox" class="ecoKoko">
+                        Koko</label>
+                        <br />
+                        <label>
+                        <input type="checkbox" class="ecoPi_lo_chun">
+                        Pi Lo Chun</label>
+                        <br />
+                        <label>
+                        <input type="checkbox" class="ecoRooibos-caramel">
+                        Rooibos Caramel</label>
+                        <br />
+                        <label>
+                        <input type="checkbox" class="ecoSencha">
+                        Sencha </label>
+                        <br />
+                        <label>
+                        <input type="checkbox" class="ecoTrav">
+                        Trav</label>
+                        <br />
+                        <label>
+                        <input type="checkbox" class="ecoViet">
+                        Viet </label>
+                        <br />
+                        <label>
+                        <input type="checkbox" class="ecoWper">
+                        Wper</label>
+                </div>
+              <div>
+                  <h4>Grøn Te:</h5>
+                      <label>
+                      <input type="checkbox" class="greenChun_mee">
+                      Chun mee</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="greenCrap">
+                      Crap</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="greenDong">
+                      Dong</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="greenEarg">
+                      Earg</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="greenFen_wan">
+                      Fen wan</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="greenFers">
+                      Fers</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="greenFarmosa_jade">
+                      Farmosa jade</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="greenGenmai_cha">
+                      Genmai cha</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="greenGing">
+                      Ging</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="greenGins">
+                      Gins</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="greenGlobe_amaranth">
+                      Globe amaranth</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="greenGman">
+                      Gman</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="greenGreen_bambus">
+                      Green bambus</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="greenGreen_jasmin">
+                      Green jasmin</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="greenGreen_palace">
+                      Green palace</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="greenGreen_waldorf">
+                      Green waldorf</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="greenGreen-julethe">
+                      Grøn julethe</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="greenPi_lo_chun">
+                      Pi lo chun</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="greenViet">
+                      Viet</label>
+              </div>
+
+              <div>
+                  <h4>Hvid Te:</h5>
+                      <label>
+                      <input type="checkbox" class="whiteCeylon_silvertips">
+                      Ceylon silvertips</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="whiteGenmeisha">
+                      Genmeisha</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="whiteGyun">
+                      Gyun</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="whiteHvid_ananas">
+                      Hvid ananas</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="whiteHvid_creme">
+                      Hvid creme</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="whiteHvid_darjeeling">
+                      Hvid darjeeling</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="whiteHvid_droemme">
+                      Hvid drømme</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="whiteHvid_symfoni">
+                      Hvid symfoni</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="whiteHvid_tempel">
+                      Hvid tempel</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="whiteHvid_julethe">
+                      Hvid julethe</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="whiteMorb">
+                      Morb</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="whitePapua_nyguynea">
+                      Papua nyguynea</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="whitePearl_jasmin">
+                      Pearl jasmin</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="whitePaaske_blanding">
+                      Påske blanding</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="whiteSilver_assam">
+                      Silver assam </label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="whiteSilver_china ">
+                      Silver china </label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="whiteSommerte">
+                      Sommer te </label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="whiteTanzania_silvertips">
+                      Tanzania silvertips</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="whiteWhite_lounge">
+                      White lounge </label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="whiteWper">
+                      Wper</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="whiteYabaoteany">
+                      Ya bao tea ny</label>
+              </div>
+
+              <div>
+                  <h4>Sort Te:</h5>
+                      <label>
+                      <input type="checkbox" class="blackAssa">
+                      Assa</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="blackAssam-typhoo">
+                      Assam typhoo</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="blackAssag">
+                      Assag</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="blackBenifuki">
+                      Benifuki</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="blackCeylon_bob">
+                      Ceylon bob</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="blackCeylon_on">
+                      Ceylon on</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="blackDarjeeling_ff">
+                      Darjeeling ff</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="blackDarjeeling_ft">
+                      Darjeeling ft</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="blackDarjeeling_smaa_blade">
+                      Darjeeling små blade</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="blackDarjeeling_ffo-hope">
+                      Darjeeling ffo hope</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="blackDarjeeling-ffo-thurbo">
+                      Darjeeling ffo thurbo</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="blackGyun">
+                      Gyun</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="blackJava_op">
+                      Java op</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="blackKeemun">
+                      Keemun</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="blackPu-erh">
+                      Pu erh</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="blackYunnan">
+                      Yunnan</label>
+              </div>
+
+              <div>
+                  <h4>Oolong Te:</h5>
+                      <label>
+                      <input type="checkbox" class="oolongDarjeeling_oolong">
+                      Darjeeling oolong</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="oolongDarkpearloolong">
+                      Dark pearl oolong</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="oolongFarmosa_oolong ">
+                      Farmosa oolong </label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="oolongKina-oolong">
+                      Kina oolong</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="oolongKina-oolong-mil">
+                      Kina oolong mil</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="oolongKina-oolong-organic">
+                      Kina oolong organic</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="oolongNepal">
+                      Nepal</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="oolongOlfa">
+                      Olaf</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="oolongRasperry_oolong">
+                      Rasperry oolong</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="oolongRedthai-oolong">
+                      Redthai oolong</label>
+              </div>
+
+              <div>
+                  <h4>Urte Te:</h5>
+                      <label>
+                      <input type="checkbox" class="urteCami">
+                      Cami</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="urteCool">
+                      Cool</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="urteGins">
+                      Gins</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="urteHibiscus">
+                      Hibiscus</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="urteHybe">
+                      Hybe</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="urteInstant_chai">
+                      Instant chai</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="urteMasala">
+                      Masala</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="urteMoringa_boost">
+                      Moringa boost</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="urteMuhe">
+                      Muhe</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="urtePerbermyte">
+                      Perbermyte</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="urteRoog">
+                      Roog</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="urteRooibos_rabarber">
+                      Rooibos rabarber</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="urteRooibos_red_fusi">
+                      Rooibos red fusi</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="urteRooibos_caramel">
+                      Rooibos Caramel</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="urteRooibosmed_havt">
+                      Rooibosmed Havt </label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="urteRooibush">
+                      Rooibush</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="urteSweet_rooibos_chai">
+                      Sweet Rooibos Chai </label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="urteYellow_flower">
+                      Yellow Flower</label>
+              </div>
+
+              <div>
+                  <h4>Mixed Te:</h5>
+                      <label>
+                      <input type="checkbox" class="mixed175aars-blanding">
+                      175 Års Blanding</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="mixedAftereight">
+                      Aftereight</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="mixedAfternoon-tea">
+                      Afternoon Tea</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="mixedAssa">
+                      Assa</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="mixedAssam_lux">
+                      Assam Lux</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="mixedBaronesse_blanding_app">
+                      Baronesse Blanding App</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="mixedBournoville">
+                      Bournoville</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="mixedCeylon_bob">
+                      Ceylon Bob</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="mixedChai">
+                      Chai</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="mixedChai_luxus">
+                      Chai Luxus</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="mixeddarjeling_bop">
+                      Darjeling Bop</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="mixedEfteraarets">
+                      Efterårets</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="mixedEven">
+                      Even</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="mixedFriser">
+                      Friser </label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="mixedHygge">
+                      Hygge</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="mixedJava_op">
+                      Java Op </label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="mixedKeeg">
+                      Keeg</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="mixedKeemun">
+                      Keemun </label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="mixedLuyu">
+                      Luyu</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="mixedMorgente">
+                      Morgen te </label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="mixedPanyoung">
+                      Panyoung</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="mixedRoog">
+                      Roog</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="mixedSommerte">
+                      Sommer te</label>
+              </div>
+
+
+
+              <div>
+                  <h4>Gave Æsker:</h5>
+                      <label>
+                      <input type="checkbox" class="giftboxnewblack">
+                      sort gaveæske</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="giftboxlakblack">
+                      lak sort gaveæske</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="giftboxwhite">
+                      hvid gaveæske</label>
+                      <br />
+                      <label>
+                      <input type="checkbox" class="teaset">
+                      the sæt</label>
+              </div>
+
+</div>
+              <br />
+              <br />
+              <label for="comment" id="commentlabel">Kommentar</label>
+              <br />
+              <textarea name="comment" id="comment" cols="44" rows="5" placeholder="Evt. Antal"></textarea>
+              <br />
+              <button class="submitbutton" type="button" onclick="validate_dom(this.form)">Send Bestilling</button>
+          </fieldset>
+      </form>
+
 <section class="adress">
+  <div class="inline">
   <p>
   <strong>kontakt info</strong>
 </p>
@@ -144,10 +724,21 @@ godtgemt 4
 <p>
 9999 langt langt borte
 </p>
+</div>
+<figure class="ethical_logo inline">
+  <img alt="ethical tea logo" src="./resources/img/etp-logo.jpg"/>
+</figure>
 </section>
 
+<div class="iframediv">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lKiJU9k1i2c?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
 </footer>
+
 <script src="./resources/js/filter.js"></script>
+<script src="./resources/js/form.js"></script>
 
   </body>
 </html>

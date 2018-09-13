@@ -1,29 +1,109 @@
-@media only screen and (min-width: 1200px) {
-    body {
-        background-color: #f0f;
-    }
-}
+
 
 @media only screen and (max-width: 1050px) {
-    
-    body {
-        background-color: #0ff;
+
+    .tearoom{
+        grid-column: 1/13;
     }
+        .blog{
+        grid-column: 1/13;
+    }
+        .giftbox{
+        grid-column: 1/13;
+    }
+    .tea{
+        grid-column: 1/13;
+        justify-content: space-between;
+
+        }
+        .filter{
+            width: 140px;
+            height: 140px;
+        }
 }
 
-
-
-@media only screen and (max-width: 770px) {
-    body {
-        background-color: #ff0;
-    }
-   
-}
 
 
 @media only screen and (max-width: 420px) {
-    body {
-        background-color: #f00;
-    }
 
+nav{
+    display: none;
+}
+.blog a h2, .tearoom a h2, .giftbox a h2 {
+    color: #f59b1a;
+    text-align: center;
+    font-family: "oswald", sans-serif;
+    font-size: 5em;
+    
+}
+.filter{
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+.tea{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.ethical_logo img{
+    width:100%;
+    
+}
+.iframediv iframe{
+    width:100%;
+}
+.category figure img{
+    width: 100%;
+}
+.sale {
+grid-template-columns: repeat(3,1fr);
+}
+h1{
+    margin: 0;
+font-family: "Oswald", sans-serif;
+color: #fff;
+font-size: 4em;
+text-align: center;
+margin-left: -47%;
+}
+#header a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    position: relative;
+    top: -88px;
+    left: 87%;
+}
+.contain{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+}
+
+@media only screen and (max-width: 380px){
+    .filter{
+        width: 92px;
+        height:92px;
+        display: block;
+    } 
+    h1{
+        margin: 0;
+    font-family: "Oswald", sans-serif;
+    color: #fff;
+    font-size: 4em;
+    text-align: center;
+    margin-left: -47%;
+    }
+    #header a {
+        text-decoration: none;
+        color: #fff;
+        font-family: Roboto, sans-serif;
+        position: relative;
+        top: -88px;
+        left: 87%;
+    }
+    .contain{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+      }
 }

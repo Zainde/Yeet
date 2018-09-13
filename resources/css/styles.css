@@ -11,6 +11,7 @@ body{
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: auto;
     display: grid;
+    grid-gap: 5px;
 }
 .header{
     grid-column: 1/13;
@@ -23,6 +24,12 @@ body{
     grid-column: 2/12;
     grid-row: 2/3;
     display: block;
+    margin: auto;
+    background-image: url(../img/hero/julHEROLARGE.jpg);
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+
 }
 .blog{
     grid-template-columns: repeat(12,1fr);
@@ -31,14 +38,47 @@ body{
     grid-column: 2/12;
     grid-row: 3/4;
     display: inline-block;
+    margin: auto;
+    background-image: url(../img/hero/good_teaHEROLARGE.jpg);
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+
+}
+.giftbox{
+  grid-template-columns: repeat(12,1fr);
+  grid-template-rows: auto;
+  display: grid;
+  grid-column: 2/12;
+  grid-row: 4/5;
+  display: inline-block;
+  margin: auto;
+  background-image: url(../img/hero/giftHEROGRØN.jpg);
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  background-position: bottom;
+
+}
+.blog a h2, .tearoom a h2, .giftbox a h2{
+  color: #f59b1a;
+  font-family: "oswald", sans-serif;
+  font-size: 8em;
+text-align: center;
 }
 .tea{
-    grid-template-columns: repeat(12,1fr);
-    grid-template-rows: auto;
-    display: grid;
+    /* grid-template-columns: repeat(12,1fr);
+    grid-template-rows: auto; */
+    display: flex;
     grid-column: 2/12;
+<<<<<<< HEAD
     grid-row: 4/5;
     grid-gap: 5.5px;
+=======
+    grid-row: 5/6;
+    /* grid-gap: 5.5px; */
+justify-content: space-evenly;
+>>>>>>> e317aa44180e69fd47611733e52f572c5cc4be4f
 }
 .eco{
 
@@ -64,7 +104,122 @@ body{
 
     display: inline-block;
 }
+
+.sale{
+  grid-column: 2/12;
+  grid-row: 6/7;
+}
 footer{
+<<<<<<< HEAD
     grid-column: 2/12;
     grid-row: 5/6;
+=======
+    background-color: #f59b1a;
+    grid-column: 1/13;
+    grid-row: 7/8;
+}
+.iframediv{
+  margin-bottom: 35px;
+  margin-top: -20px;
+  text-align: center;
+}
+.show{
+  display: inline-block;
+}
+
+.hide{
+  display: none;
+}
+.filter a p{
+  font-size: 2.5em;
+    color: white;
+    text-transform: capitalize;
+    font-family: oswald, sans-serif;
+}
+.filter{
+    width: 200px;
+    height: 200px;
+}
+#ecofilter{
+  background-image: url(../img/Chamomile-Tea-BenefitsGRØN01.jpg);
+  background-size: cover;
+}
+#greenfilter{
+  background-image: url(../img/Green_teaGRØN.jpg);
+  background-size: cover;
+}
+#whitefilter{
+  background-image: url(../img/white_teaGRØN.jpg);
+  background-size: cover;
+}
+#blackfilter{
+  background-image: url(../img/black_teaGRØN.jpg);
+  background-size: cover;
+}
+#dragonfilter{
+  background-image: url(../img/oolong_teaGRØN.jpg);
+  background-size: cover;
+}
+#herbfilter{
+  background-image: url(../img/herb_teaGRØN.jpg);
+  background-size: cover;
+}
+#mixedfilter{
+  background-image: url(../img/mixed_teaGRØN.jpg);
+  background-size: cover;
+}
+#form{
+    background: #f59b1a;
+color: #fff;
+}
+#form div h4{
+    font-family: 'Oswald', sans-serif;
+
+}
+#form div h3{
+  font-family: "oswald", sans-serif;
+
+}
+.one  {
+    width: 98.5%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f59b1a;
+    color: #fff;
+    border: solid 2px #fff;
+
+}
+::placeholder{
+    color: #fff;
+}
+#comment{
+    width: 98.5%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f59b1a;
+    color: #fff;
+    border: solid 2px #fff;
+}
+.submitbutton{
+    background-color: #f59b1a;
+    color: #fff;
+    border: solid 2px #fff
+}
+fieldset{
+  border: solid 1px #f59b1a;
+}
+.formcontainer{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+}
+.catbut{
+  background-color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  border: 0;
+}
+.sale{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 5px;
+>>>>>>> e317aa44180e69fd47611733e52f572c5cc4be4f
 }

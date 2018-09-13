@@ -1,0 +1,21 @@
+form fieldset div {
+    display: inline-block;
+}
+
+input[type=text] {
+    padding: 5px;
+    margin: 5px 0;
+}
+
+textarea {
+    resize: none;
+    padding: 5px;
+}
+
+fieldset {
+    padding: 0.5%;
+}
+
+div {
+    vertical-align: top;
+}
